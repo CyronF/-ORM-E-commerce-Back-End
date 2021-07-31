@@ -1,0 +1,19 @@
+{
+  "name": "portfolio13",
+  "version": "1.0.0",
+  "description": "(ORM): E-commerce Back End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyronF/Portfolio13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyronF/Portfolio13/issues"
+  },
+  "homepage": "https://github.com/CyronF/Portfolio13#readme"
+}
