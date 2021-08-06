@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/CyronF/Portfolio13/issues"
   },
-  "homepage": "https://github.com/CyronF/Portfolio13#readme"
+  "homepage": "https://github.com/CyronF/Portfolio13#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
 }
