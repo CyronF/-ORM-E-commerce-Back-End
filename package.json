@@ -1,13 +1,21 @@
 {
   "name": "portfolio13",
   "version": "1.0.0",
-  "description": "(ORM): E-commerce Back End",
-  "main": "index.js",
+  "description": "```md\r AS A manager at an internet retail company\r I WANT a back end for my e-commerce website that uses the latest technologies\r SO THAT my company can compete with other e-commerce companies\r ```",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "missing": "^0.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node seeds/index.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,14 +26,5 @@
   "bugs": {
     "url": "https://github.com/CyronF/Portfolio13/issues"
   },
-  "homepage": "https://github.com/CyronF/Portfolio13#readme",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "missing": "0.0.1",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.6.5"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/CyronF/Portfolio13#readme"
 }
